@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 ```
 
 
-# simpowa: A generalizable simulation-based power analysis R package for semi-field vector control trials
+# simpowa: A simulation-based power analysis R package for semi-field vector control trials
 
 
 <!-- badges: start -->
