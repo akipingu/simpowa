@@ -1,4 +1,4 @@
-citHeader("To cite powergene in publications use:")
+citHeader("To cite simpowa in publications use:")
 
 citEntry(
   entry = "Misc",
@@ -8,9 +8,9 @@ citEntry(
     person(given = "", family = "Johnson, P.C.D.", role = "aut"),
     person(given = "", family = "Kiware, S.S.", role = "aut")
   ),
-  title = "powergene: A generalizable simulation-based power analysis R package for semi-field vector control trials
+  title = "simpowa: A generalizable simulation-based power analysis R package for semi-field vector control trials
 ",
   year = 2025,
   howpublished = "R package available at GitHub",
-  url = "https://github.com/akipingu/powergene"
+  url = "https://github.com/akipingu/simpowa"
 )
