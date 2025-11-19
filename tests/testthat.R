@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(powergene)
+library(simpowa)
 
-test_check("powergene")
+test_check("simpowa")
