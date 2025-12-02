@@ -65,7 +65,7 @@ if (!requireNamespace("simpowa", quietly = TRUE)) {
 library(simpowa)
 ```
 
-If you use **simpowa** in your research or publications, please cite it appropriately
+If you use **simpowa** in your research or publications, please cite it appropriately as follows:
 ```{r}
 #cite this package
 citation("simpowa")

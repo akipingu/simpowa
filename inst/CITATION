@@ -8,7 +8,7 @@ citEntry(
     person(given = "", family = "Johnson, P.C.D.", role = "aut"),
     person(given = "", family = "Kiware, S.S.", role = "aut")
   ),
-  title = "simpowa: A generalizable simulation-based power analysis R package for semi-field vector control trials
+  title = "simpowa: A simulation-based power analysis R package for semi-field vector control trials
 ",
   year = 2025,
   howpublished = "R package available at GitHub",
