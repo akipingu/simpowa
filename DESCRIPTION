@@ -9,7 +9,7 @@ Authors@R: c(
            role = c("aut", "cre"),
            comment = c(
                ORCID = "0000-0002-9063-8651",
-               affiliation = "Department of Environmental Health & Ecological Sciences, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania"
+               affiliation = "Environmental Health & Ecological Sciences Department, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania"
            )),
     person(given = "Mafalda.",
            family = "Viana",
@@ -33,7 +33,7 @@ Authors@R: c(
            role = c("aut"),
            comment = c(
                ORCID = "0000-0001-7252-520X",
-               affiliation = "Department of Environmental Health & Ecological Sciences, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania"
+               affiliation = "Environmental Health & Ecological Sciences Department, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania"
            )))
 Maintainer: Andrea M. Kipingu <akipingu@ihi.or.tz>
 Description: An R package providing simulation-based power analysis to inform the design of robust semi-field vector control experiments. It includes support for random effects and empirical p-value extraction, power estimation and parallelized workflows.
