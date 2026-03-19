@@ -55,6 +55,8 @@ Returns the p-value by fitting a negative binomial GLMM to simulated mosquito co
 Uses simulated mosquito counts data from `sim.mosq.longsfe.comint()` and fits a negative binomial GLMM to extract the p-value associated with the intvn effect.
 }
 \examples{
+
+\donttest{
 sim.pval.longsfe.comint(
   n.ch.per.trt = 4,
   exp.length = 90,
@@ -68,4 +70,5 @@ sim.pval.longsfe.comint(
   theta = 10,
   use.random = TRUE
 )
+}
 }

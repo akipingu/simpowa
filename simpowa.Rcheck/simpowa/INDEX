@@ -1,0 +1,79 @@
+sim.mosq.longsfe.comint
+                        Simulate Mosquito Count Data for Long-Term
+                        Semi-Field Experiment Testing Combined
+                        Interventions
+sim.mosq.longsfe.sinint
+                        Simulate Mosquito Count Data for Long-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+sim.mosq.shortsfe.comint
+                        Simulate Mosquito Count Data for Short-Term
+                        Semi-Field Experiment Testing Combined
+                        Interventions
+sim.mosq.shortsfe.sinint
+                        Simulate Mosquito Count Data for Short-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+sim.plot.longsfe.comint
+                        Plot Mosquito Counts for Long-Term Semi-Field
+                        Experiment Testing Combined Interventions
+sim.plot.longsfe.sinint
+                        Plot Mosquito Counts for Long-Term Semi-Field
+                        Experiment Testing Single Intervention
+sim.plot.shortsfe.comint
+                        Plot Mosquito Counts for Short-Term Semi-Field
+                        Experiment Testing Combined Interventions
+sim.plot.shortsfe.sinint
+                        Plot Mosquito Counts from Short-Term Semi-Field
+                        Experiment Testing Single Intervention
+sim.power.longsfe.comint
+                        Estimate Empirical Power for Long-Term
+                        Semi-Field Experiment Testing Combined
+                        Interventions
+sim.power.longsfe.sinint
+                        Estimate Empirical Power for Long-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+sim.power.shortsfe.comint
+                        Estimate Empirical Power for Short-Term
+                        Semi-Field Experiment Testing Combined
+                        Intervention
+sim.power.shortsfe.sinint
+                        Estimate Empirical Power for Short-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+sim.pval.longsfe.comint
+                        Extract p-value from Simulated GLMM for
+                        Long-Term Semi-Field Experiment Testing
+                        Combined Interventions
+sim.pval.longsfe.sinint
+                        Extract p-value from Simulated GLMM for
+                        Long-Term Semi-Field Experiment Testing Single
+                        Intervention
+sim.pval.shortsfe.comint
+                        Extract p-value from Simulated GLMM for
+                        Short-Term Semi-Field Experiment Testing
+                        Combined Interventions
+sim.pval.shortsfe.sinint
+                        Extract p-values from Simulated GLMM for
+                        Short-Term Semi-Field Experiment Testing Single
+                        Intervention
+sim.scen.longsfe.comint
+                        Simulate Design Scenarios for Long-Term
+                        Semi-Filed Experiment Testing Combined
+                        Interventions
+sim.scen.longsfe.sinint
+                        Simulate Design Scenarios for Long-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+sim.scen.shortsfe.comint
+                        Simulate Design Scenarios for Short-Term
+                        Semi-Field Experiment Testing Combined
+                        Interventions
+sim.scen.shortsfe.sinint
+                        Simulate Design Scenarios for Short-Term
+                        Semi-Field Experiment Testing Single
+                        Intervention
+simpowa-package         simpowa: A Generalizable Simulation-Based Power
+                        Analysis R Package for Semi-Field Vector
+                        Control Trials
