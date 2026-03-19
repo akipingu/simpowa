@@ -357,6 +357,23 @@ sim.pval.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # A short fast runnable example (nsim = 2)
+#' sim.power.longsfe.sinint(
+#'   n.ch.per.trt = 4,
+#'   exp.length = 90,
+#'   sampl.freq = "weekly",
+#'   lambda = 10,
+#'   intvn.effect = 0.8,
+#'   chamber.var = 0.1807,
+#'   time.var = 0.2266,
+#'   theta = 10,
+#'   nsim = 2,
+#'   n.cores = 1,
+#'   use.random = TRUE
+#' )
+#'
+#' \donttest{
+#' # Longer simulation (nsim = 100)
 #' sim.power.longsfe.sinint(
 #'   n.ch.per.trt = 4,
 #'   exp.length = 90,
@@ -370,6 +387,7 @@ sim.pval.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )
+#' }
 #'
 #' @importFrom parallel makeCluster parLapply stopCluster clusterExport detectCores
 #' @importFrom stats binom.test

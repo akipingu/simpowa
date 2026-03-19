@@ -306,6 +306,21 @@ sim.pval.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # A short fast runnable example (nsim = 2)
+#' sim.power.shortsfe.comint(
+#'   n.ch.per.trt = 4,
+#'   lambda = 50,
+#'   intvn1.effect = 0.7,
+#'   intvn2.effect = 0.8,
+#'   ixn.effect = 0.5,
+#'   chamber.var = 0.1807,
+#'   nsim = 2,
+#'   n.cores = 1,
+#'   use.random = TRUE
+#' )
+#'
+#' \donttest{
+#' # Longer simulation (nsim = 100)
 #' sim.power.shortsfe.comint(
 #'   n.ch.per.trt = 4,
 #'   lambda = 50,
@@ -317,6 +332,7 @@ sim.pval.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )
+#' }
 #'
 #' @importFrom parallel makeCluster parLapply stopCluster clusterExport detectCores
 #' @importFrom stats binom.test

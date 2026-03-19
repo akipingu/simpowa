@@ -20,13 +20,13 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Andrea M. Kipingu \email{akipingu@ihi.or.tz} (\href{https://orcid.org/0000-0002-9063-8651}{ORCID}) (Department of Environmental Health & Ecological Sciences, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania)
+\strong{Maintainer}: Andrea M. Kipingu \email{akipingu@ihi.or.tz} (\href{https://orcid.org/0000-0002-9063-8651}{ORCID}) (Environmental Health & Ecological Sciences Department, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania)
 
 Authors:
 \itemize{
-  \item Mafalda. Viana \email{mafalda.viana@glasgow.ac.uk} (\href{https://orcid.org/0000-0001-5975-6505}{ORCID}) (School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Graham Kerr Building, Glasgow, G12 8QQ, UK)
+  \item Mafalda Viana \email{mafalda.viana@glasgow.ac.uk} (\href{https://orcid.org/0000-0001-5975-6505}{ORCID}) (School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Graham Kerr Building, Glasgow, G12 8QQ, UK)
   \item Paul C.D. Johnson \email{paul.johnson@glasgow.ac.uk} (\href{https://orcid.org/0000-0001-6663-7520}{ORCID}) (School of Biodiversity, One Health & Veterinary Medicine, University of Glasgow, Wolfson Link Building, Glasgow, G12 8QQ, UK)
-  \item Samson S. Kiware \email{skiware@ihi.or.tz} (\href{https://orcid.org/0000-0001-7252-520X}{ORCID}) (Department of Environmental Health & Ecological Sciences, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania)
+  \item Samson S. Kiware \email{skiware@ihi.or.tz} (\href{https://orcid.org/0000-0001-7252-520X}{ORCID}) (Environmental Health & Ecological Sciences Department, Ifakara Health Institute, P.O. Box 78 373, Dar es Salaam, Tanzania)
 }
 
 }
