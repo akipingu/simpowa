@@ -6,10 +6,11 @@ output: github_document
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
+  collapse = TRUE,       # collapse output and code together
+  comment = "#>",        # prefix output lines with "#>"
+  fig.path = "man/figures/README-",  # where to save figures
+  out.width = "100%",     # scale figures to full width
+  cache = TRUE            # add caching
 )
 ```
 
@@ -21,7 +22,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-The simpowa R package simulates mosquito count data under short- and long-term semi-field experimental design scenarios, evaluating single or combined interventions. It incorporates fixed treatment effects, random chamber-level or sampling time-level variability to support robust power analysis for short- or long-term semi-field experimental planning. 
+A simpowa R package simulates mosquito count data under short- and long-term semi-field experimental design scenarios, evaluating single or combined interventions. The package incorporates fixed treatment effects, random chamber-level or sampling time-level variability to support robust power analysis for short- or long-term semi-field experimental planning. 
 
 This package is an extension of a simulation based power analysis framework developed by [Kipingu et. al 2025](https://doi.org/10.1186/s12936-025-05454-y
 ). Therefore, all parameter values for the examples below are taken directly from the same study. Visit [Kipingu et al. 2025](https://doi.org/10.1186/s12936-025-05454-y) or [Johnson et al. 2014](https://doi.org/10.1111/2041-210X.12306) for more information and description regarding simulation-based power analysis.
