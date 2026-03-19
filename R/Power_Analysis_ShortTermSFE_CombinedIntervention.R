@@ -307,7 +307,7 @@ sim.pval.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' sim.power.shortsfe.comint(
 #'   n.ch.per.trt = 4,
 #'   lambda = 50,

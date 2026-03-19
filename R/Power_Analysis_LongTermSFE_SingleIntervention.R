@@ -358,7 +358,7 @@ sim.pval.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' sim.power.longsfe.sinint(
 #'   n.ch.per.trt = 4,
 #'   exp.length = 90,

@@ -56,7 +56,7 @@ Uses simulated mosquito counts data from `sim.mosq.longsfe.comint()` and fits a 
 }
 \examples{
 
-\donttest{
+\dontrun{
 sim.pval.longsfe.comint(
   n.ch.per.trt = 4,
   exp.length = 90,

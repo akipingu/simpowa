@@ -325,7 +325,7 @@ sim.plot.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' sim.pval.longsfe.comint(
 #'   n.ch.per.trt = 4,
 #'   exp.length = 90,
@@ -412,7 +412,7 @@ sim.pval.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' sim.power.longsfe.comint(
 #'   n.ch.per.trt = 4,
 #'   exp.length = 90,

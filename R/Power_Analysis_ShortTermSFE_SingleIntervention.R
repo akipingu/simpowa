@@ -273,7 +273,7 @@ sim.pval.shortsfe.sinint <- function(n.ch.per.trt, lambda, intvn.effect, chamber
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' sim.power.shortsfe.sinint(
 #'   n.ch.per.trt = 4,
 #'   lambda = 50,

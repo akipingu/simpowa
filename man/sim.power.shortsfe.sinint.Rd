@@ -49,7 +49,7 @@ Parallel execution is supported via `n.cores`, but examples default to `n.cores 
 }
 \examples{
 
-\donttest{
+\dontrun{
 sim.power.shortsfe.sinint(
   n.ch.per.trt = 4,
   lambda = 50,

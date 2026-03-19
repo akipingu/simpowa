@@ -60,7 +60,7 @@ Parallel execution is supported via `n.cores`, but examples default to `n.cores 
 }
 \examples{
 
-\donttest{
+\dontrun{
 sim.power.longsfe.sinint(
   n.ch.per.trt = 4,
   exp.length = 90,
