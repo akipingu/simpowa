@@ -1,9 +1,9 @@
 name: Render README
 
 on:
-  push:
-    branches: [main]
-    paths: ["README.Rmd"]
+  # push:
+  #   branches: [main]
+  #   paths: ["README.Rmd"]
   workflow_dispatch:
 
 jobs:
