@@ -607,8 +607,8 @@ pvalue_est <- sim.pval.longsfe.comint(
 
 V. Estimate power for long-term SFE testing combined interventions. For more information on each input below, type "?sim.power.longsfe.comint" in RStudio. If you computer has multiple cores, you can specify what amount of core you want to utilize using "n.cores"; if not, just use "n.cores = 1" as default. You may even decide to remove n.cores if you don't want to use it. 
 ```{r}
-# Estimate p-value, account for random effects using "use.random = TRUE".
-# Estimate p-value, account for fixed effect only using "use.random = FALSE".
+# Estimate power, account for random effects using "use.random = TRUE".
+# Estimate power, account for fixed effect only using "use.random = FALSE".
 power_est <- sim.power.longsfe.comint(
   n.ch.per.trt = 4,
   exp.length = 90,
@@ -624,4 +624,6 @@ power_est <- sim.power.longsfe.comint(
   n.cores = 1,
   use.random = TRUE
 )
+# Print power
+power_est
 ```
