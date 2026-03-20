@@ -15,7 +15,7 @@
 #'   \item{chamber}{Unique chamber identifier as a factor (e.g., 0-0-1, 0-0-2 for the control chambers and 0-1-1, 1-0-1, 1-1-1 for intervention chambers)}
 #' }
 #' @examples
-#' sim.scen.shortsfe.comint(n.ch.per.trt = 4)
+#' sim.scen.shortsfe.comint(n.ch.per.trt = 2)
 #'
 #' @export
 sim.scen.shortsfe.comint <- function(n.ch.per.trt) {
@@ -70,7 +70,7 @@ sim.scen.shortsfe.comint <- function(n.ch.per.trt) {
 #'
 #' @examples
 #' sim.mosq.shortsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -144,7 +144,7 @@ sim.mosq.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #'
 #' @examples
 #' sim.plot.shortsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -228,7 +228,7 @@ sim.plot.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #'
 #' @examples
 #' sim.pval.shortsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -306,20 +306,19 @@ sim.pval.shortsfe.comint <- function(n.ch.per.trt, lambda, intvn1.effect, intvn2
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # For a realistic SFE design, nsim should be at least 1000.
 #'
-#' \dontrun{
 #' sim.power.shortsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
 #'   ixn.effect = 0.5,
 #'   chamber.var = 0.1807,
-#'   nsim = 100,
+#'   nsim = 2,
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )
-#' }
 #'
 #' @importFrom parallel makeCluster parLapply stopCluster clusterExport detectCores
 #' @importFrom stats binom.test

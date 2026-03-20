@@ -1,7 +1,7 @@
 Package: simpowa
 Type: Package
 Title: A Simulation-Based Power Analysis R Package for Guiding Semi-Field Vector Control Trials
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person(given = "Andrea M.",
            family = "Kipingu",

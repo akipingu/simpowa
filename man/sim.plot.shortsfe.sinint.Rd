@@ -41,7 +41,7 @@ Uses output from `sim.mosq.shortsfe.sinint()` and can overlay jittered points to
 }
 \examples{
 sim.plot.shortsfe.sinint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn.effect = 0.8,
   chamber.var = 0.1807,

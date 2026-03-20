@@ -19,7 +19,7 @@
 #' }
 #'
 #' @examples
-#' sim.scen.shortsfe.sinint(n.ch.per.trt = 4)
+#' sim.scen.shortsfe.sinint(n.ch.per.trt = 2)
 #'
 #' @export
 sim.scen.shortsfe.sinint <- function(n.ch.per.trt) {
@@ -60,7 +60,7 @@ sim.scen.shortsfe.sinint <- function(n.ch.per.trt) {
 #'
 #' @examples
 #' sim.mosq.shortsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -130,7 +130,7 @@ sim.mosq.shortsfe.sinint <- function(n.ch.per.trt, lambda, intvn.effect, chamber
 #'
 #' @examples
 #' sim.plot.shortsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -205,7 +205,7 @@ sim.plot.shortsfe.sinint <- function(n.ch.per.trt, lambda, intvn.effect, chamber
 #'
 #' @examples
 #' sim.pval.shortsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -272,18 +272,17 @@ sim.pval.shortsfe.sinint <- function(n.ch.per.trt, lambda, intvn.effect, chamber
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # For a realistic SFE design, nsim should be at least 1000.
 #'
-#' \dontrun{
 #' sim.power.shortsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   lambda = 50,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
-#'   nsim = 100,
+#'   nsim = 2,
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )
-#' }
 #'
 #' @importFrom parallel makeCluster parLapply stopCluster clusterExport detectCores
 #' @importFrom stats binom.test

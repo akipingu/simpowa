@@ -35,9 +35,9 @@ treatments combinations, including interaction terms. The intervention here are 
 }
 \examples{
 sim.scen.longsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   exp.length = 90,
-  sampl.freq = "weekly"
+  sampl.freq = "monthly"
 )
 
 }

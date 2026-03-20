@@ -49,9 +49,9 @@ Uses simulated mosquito counts data from `sim.mosq.longsfe.sinint()` and fits a 
 }
 \examples{
 sim.pval.longsfe.sinint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   exp.length = 90,
-  sampl.freq = "weekly",
+  sampl.freq = "monthly",
   lambda = 10,
   intvn.effect = 0.8,
   chamber.var = 0.1807,

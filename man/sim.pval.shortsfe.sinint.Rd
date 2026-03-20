@@ -38,7 +38,7 @@ Uses simulated mosquito counts data from `sim.mosq.shortsfe.sinint()` and fits a
 }
 \examples{
 sim.pval.shortsfe.sinint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn.effect = 0.8,
   chamber.var = 0.1807,

@@ -56,7 +56,7 @@ Uses output from `sim.scen.shortsfe.comint()` to incorporate the table of experi
 }
 \examples{
 sim.mosq.shortsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn1.effect = 0.7,
   intvn2.effect = 0.8,

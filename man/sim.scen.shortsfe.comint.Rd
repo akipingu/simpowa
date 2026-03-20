@@ -26,6 +26,6 @@ testing combined interventions. Each chamber is uniquely identified and assigned
 treatments combinations, including interaction terms. The intervention here are shortly named as `intvn1` and `intvn2`.
 }
 \examples{
-sim.scen.shortsfe.comint(n.ch.per.trt = 4)
+sim.scen.shortsfe.comint(n.ch.per.trt = 2)
 
 }

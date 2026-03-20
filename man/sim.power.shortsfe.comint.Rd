@@ -54,19 +54,18 @@ as the proportion of simulations with p-values below 0.05. These p-values are ge
 Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 }
 \examples{
+# For a realistic SFE design, nsim should be at least 1000.
 
-\dontrun{
 sim.power.shortsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn1.effect = 0.7,
   intvn2.effect = 0.8,
   ixn.effect = 0.5,
   chamber.var = 0.1807,
-  nsim = 100,
+  nsim = 2,
   n.cores = 1,
   use.random = TRUE
 )
-}
 
 }

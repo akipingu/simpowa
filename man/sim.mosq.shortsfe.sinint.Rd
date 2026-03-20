@@ -48,7 +48,7 @@ Uses output from `sim.scen.shortsfe.sinint()` to incorporate the table of experi
 }
 \examples{
 sim.mosq.shortsfe.sinint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn.effect = 0.8,
   chamber.var = 0.1807,

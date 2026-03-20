@@ -72,9 +72,9 @@ Uses output from `sim.scen.longsfe.comint()` to incorporate the table of experim
 }
 \examples{
 sim.mosq.longsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   exp.length = 90,
-  sampl.freq = "weekly",
+  sampl.freq = "monthly",
   lambda = 10,
   intvn1.effect = 0.7,
   intvn2.effect = 0.8,

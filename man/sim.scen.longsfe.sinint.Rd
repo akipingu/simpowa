@@ -31,8 +31,8 @@ Each chamber is uniquely identified by a treatment level and a replicate combina
 }
 \examples{
 sim.scen.longsfe.sinint(
-n.ch.per.trt = 4,
+n.ch.per.trt = 2,
 exp.length = 90,
-sampl.freq = "weekly"
+sampl.freq = "monthly"
 )
 }

@@ -54,9 +54,9 @@ random effects, or fixed effects (no sampling distribution), using data simulate
 }
 \examples{
 sim.plot.longsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   exp.length = 90,
-  sampl.freq = "weekly",
+  sampl.freq = "monthly",
   lambda = 10,
   intvn1.effect = 0.7,
   intvn2.effect = 0.8,

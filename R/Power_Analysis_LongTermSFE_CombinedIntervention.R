@@ -23,9 +23,9 @@
 #'
 #' @examples
 #' sim.scen.longsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly"
+#'   sampl.freq = "monthly"
 #' )
 #'
 #' @export
@@ -117,9 +117,9 @@ sim.scen.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #' sim.mosq.longsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -214,9 +214,9 @@ sim.mosq.longsfe.comint <- function(n.ch.per.trt,
 #'
 #' @examples
 #' sim.plot.longsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -324,12 +324,11 @@ sim.plot.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #' @export
 #'
 #' @examples
-#'
-#' \dontrun{
+#' # For a realistic SFE design, nsim should be at least 1000
 #' sim.pval.longsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -339,7 +338,6 @@ sim.plot.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'   theta = 10,
 #'   use.random = TRUE
 #' )
-#' }
 sim.pval.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "weekly",
                                     lambda, intvn1.effect, intvn2.effect, ixn.effect,
                                     chamber.var, time.var, theta, use.random = TRUE) {
@@ -411,12 +409,13 @@ sim.pval.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # For a realistic SFE design, nsim should be at least 1000.
 #'
 #' \dontrun{
 #' sim.power.longsfe.comint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn1.effect = 0.7,
 #'   intvn2.effect = 0.8,
@@ -424,7 +423,7 @@ sim.pval.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'   chamber.var = 0.1807,
 #'   time.var = 0.2266,
 #'   theta = 10,
-#'   nsim = 100,
+#'   nsim = 2,
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )

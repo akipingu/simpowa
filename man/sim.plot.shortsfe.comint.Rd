@@ -47,7 +47,7 @@ Uses output from `sim.mosq.shortsfe.comint()` and overlays jittered points to sh
 }
 \examples{
 sim.plot.shortsfe.comint(
-  n.ch.per.trt = 4,
+  n.ch.per.trt = 2,
   lambda = 50,
   intvn1.effect = 0.7,
   intvn2.effect = 0.8,

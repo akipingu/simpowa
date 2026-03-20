@@ -29,6 +29,6 @@ the total number of chambers or compartments per treatment (`n.ch.per.trt`), e.g
 The `n.ch.per.trt` indicates how many chambers known as `replicates` are present per treatment.
 }
 \examples{
-sim.scen.shortsfe.sinint(n.ch.per.trt = 4)
+sim.scen.shortsfe.sinint(n.ch.per.trt = 2)
 
 }

@@ -20,9 +20,9 @@
 #'
 #' @examples
 #' sim.scen.longsfe.sinint(
-#' n.ch.per.trt = 4,
+#' n.ch.per.trt = 2,
 #' exp.length = 90,
-#' sampl.freq = "weekly"
+#' sampl.freq = "monthly"
 #' )
 #' @export
 sim.scen.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "weekly") {
@@ -96,9 +96,9 @@ sim.scen.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #' sim.mosq.longsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -176,9 +176,9 @@ sim.mosq.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #' sim.plot.longsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -279,9 +279,9 @@ sim.plot.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #'
 #' @examples
 #' sim.pval.longsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
@@ -357,22 +357,21 @@ sim.pval.longsfe.sinint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #' @note Parallel execution is supported via `n.cores`, but examples default to `n.cores = 1` for reproducibility and package checks.
 #'
 #' @examples
+#' # For a realistic SFE design, nsim should be at least 1000.
 #'
-#' \dontrun{
 #' sim.power.longsfe.sinint(
-#'   n.ch.per.trt = 4,
+#'   n.ch.per.trt = 2,
 #'   exp.length = 90,
-#'   sampl.freq = "weekly",
+#'   sampl.freq = "monthly",
 #'   lambda = 10,
 #'   intvn.effect = 0.8,
 #'   chamber.var = 0.1807,
 #'   time.var = 0.2266,
 #'   theta = 10,
-#'   nsim = 100,
+#'   nsim = 2,
 #'   n.cores = 1,
 #'   use.random = TRUE
 #' )
-#' }
 #'
 #' @importFrom parallel makeCluster parLapply stopCluster clusterExport detectCores
 #' @importFrom stats binom.test
