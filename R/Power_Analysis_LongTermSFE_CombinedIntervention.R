@@ -411,7 +411,7 @@ sim.pval.longsfe.comint <- function(n.ch.per.trt, exp.length, sampl.freq = "week
 #' @examples
 #' # For a realistic SFE design, nsim should be at least 1000.
 #'
-#' \dontrun{
+#' \donttest{
 #' sim.power.longsfe.comint(
 #'   n.ch.per.trt = 2,
 #'   exp.length = 90,

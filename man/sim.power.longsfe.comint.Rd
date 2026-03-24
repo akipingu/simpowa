@@ -68,7 +68,7 @@ Parallel execution is supported via `n.cores`, but examples default to `n.cores 
 \examples{
 # For a realistic SFE design, nsim should be at least 1000.
 
-\dontrun{
+\donttest{
 sim.power.longsfe.comint(
   n.ch.per.trt = 2,
   exp.length = 90,
