@@ -26,7 +26,7 @@ and description regarding simulation-based power analysis.
 ## Installation of simpowa package
 
 You can install the development version of simpowa package directly from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/akipingu/simpowa) with:
 
 ``` r
 # # First, install.packages("devtools") if not already installed in your RStudio.
@@ -223,8 +223,8 @@ round(power.estimate,2)
 
 6.  Now you use the function to estimate power for varied number of
     chambers per treatment, e.g., 2,4,6,8. You can repeat this stage for
-    all the power estimation functions in the package. Note that, this
-    step is not necessary but we are showing it here to demonstrate the
+    all the power estimation functions in the package. Note that this
+    step is not necessary, but we are showing it here to demonstrate the
     robustness of the package.
 
 ``` r
@@ -537,8 +537,7 @@ pvalue_est <- sim.pval.shortsfe.comint(
 
 V. Estimate power for SFE testing combined interventions. For more
 information on each input below, type “?sim.power.shortsfe.comint” in
-RStudio. If you computer has multiple cores, you can specify what amount
-of core you want to utilise using “n.cores”; if not, just use “n.cores =
+RStudio. If you computer has multiple cores, you can specify the number of cores to use with “n.cores”; if not, just use “n.cores =
 1” as default. You may even decide to remove n.cores if you don’t want
 to use it.
 
@@ -699,8 +698,7 @@ pvalue_est <- sim.pval.longsfe.sinint(
 
 V. Estimate power for long-term SFE testing single intervention. For
 more information on each input below, type “?sim.power.longsfe.sinint”
-in RStudio. If you computer has multiple cores, you can specify what
-amount of core you want to utilise using “n.cores”; if not, just use
+in RStudio. If you computer has multiple cores, you can specify the number to use with “n.cores”; if not, just use
 “n.cores = 1” as default. You may even decide to remove n.cores if you
 don’t want to use it.
 
@@ -754,7 +752,7 @@ scen.table <- sim.scen.longsfe.comint(
 #scen.table
 ```
 
-2.  Simulate mosquitoes counts/abundance for a long-term SFE testing
+2.  Simulate mosquito counts/abundance for a long-term SFE testing
     combined interventions. For more information on each input below,
     type “?sim.mosq.longsfe.comint” in RStudio
 
